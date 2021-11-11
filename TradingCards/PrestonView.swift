@@ -33,16 +33,16 @@ struct PrestonView: View {
                         Text("Retro 75 Series")
                             .font(.headline)
                             .foregroundColor(Color(white: 0.4745))
-                
+                        
                     }
                     
                     
-                    Text("FLYTIGERS")
+                    Text("PRESTON FOWLER")
                     
                     Text("""
-                         Height 5'7'
-                         Weight 129
-                         Birth date:June 5, 1989
+                         Height 5'I'
+                         Weight 98
+                         Birth date:June 19, 1994
                         """)
                         .font(.body)
                         .padding()
@@ -53,7 +53,7 @@ struct PrestonView: View {
                     
                     
                     Text("""
-        "Aubrey shares that she has been competitively swimming since the age of two -when she would race her family's Yorkshire Terrier across the backyard pool.  Now days, even a dolphin would have trouble keeping up with Aubrey."
+        "Preston started as a polo player, then was drafted by his college's swim coach to compete in the 100-meter breaststroke.  The Switch has certainly paid off, as Preston is undefeated in the event in his past ten races."
         """)
                         .padding()
                         .background(Color.red)
@@ -64,14 +64,15 @@ struct PrestonView: View {
                 
                 
             }
-            .navigationTitle("A.ANDREWS")
+            .navigationTitle("PRESTON FOWLER")
             .padding()
             
+        }
     }
-}
-
-struct PrestonView_Previews: PreviewProvider {
-    static var previews: some View {
-        PrestonView()
+    
+    struct PrestonView_Previews: PreviewProvider {
+        static var previews: some View {
+            PrestonView()
+        }
     }
 }
