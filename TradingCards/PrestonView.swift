@@ -1,13 +1,13 @@
 //
-//  AuberyView.swift
+//  PrestonView.swift
 //  TradingCards
 //
-//  Created by Suzanne Tian on 2021-11-09.
+//  Created by Suzanne Tian on 2021-11-10.
 //
 
 import SwiftUI
 
-struct AuberyView: View {
+struct PrestonView: View {
     var body: some View {
         ScrollView {
             
@@ -67,14 +67,11 @@ struct AuberyView: View {
             .navigationTitle("A.ANDREWS")
             .padding()
             
-        }
-    }
-    
-    
-    struct AuberyView_Previews: PreviewProvider {
-        static var previews: some View {
-            AuberyView()
-        }
     }
 }
 
+struct PrestonView_Previews: PreviewProvider {
+    static var previews: some View {
+        PrestonView()
+    }
+}

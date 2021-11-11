@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		80D7962F273AD90600C8F00C /* TradingCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7962E273AD90600C8F00C /* TradingCardsApp.swift */; };
-		80D79631273AD90600C8F00C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D79630273AD90600C8F00C /* ContentView.swift */; };
+		80D79631273AD90600C8F00C /* AuberyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D79630273AD90600C8F00C /* AuberyView.swift */; };
 		80D79633273AD91700C8F00C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D79632273AD91700C8F00C /* Assets.xcassets */; };
 		80D79636273AD91700C8F00C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D79635273AD91700C8F00C /* Preview Assets.xcassets */; };
+		80D79641273C5B1A00C8F00C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D79640273C5B1A00C8F00C /* DetailView.swift */; };
+		80D79643273C9B3A00C8F00C /* ZachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D79642273C9B3800C8F00C /* ZachView.swift */; };
+		80D79645273CA07100C8F00C /* PrestonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D79644273CA07100C8F00C /* PrestonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		80D7962B273AD90600C8F00C /* TradingCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D7962E273AD90600C8F00C /* TradingCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardsApp.swift; sourceTree = "<group>"; };
-		80D79630273AD90600C8F00C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		80D79630273AD90600C8F00C /* AuberyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuberyView.swift; sourceTree = "<group>"; };
 		80D79632273AD91700C8F00C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80D79635273AD91700C8F00C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		80D79640273C5B1A00C8F00C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		80D79642273C9B3800C8F00C /* ZachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZachView.swift; sourceTree = "<group>"; };
+		80D79644273CA07100C8F00C /* PrestonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrestonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,11 @@
 		80D7962D273AD90600C8F00C /* TradingCards */ = {
 			isa = PBXGroup;
 			children = (
+				80D79630273AD90600C8F00C /* AuberyView.swift */,
+				80D79642273C9B3800C8F00C /* ZachView.swift */,
+				80D79644273CA07100C8F00C /* PrestonView.swift */,
 				80D7962E273AD90600C8F00C /* TradingCardsApp.swift */,
-				80D79630273AD90600C8F00C /* ContentView.swift */,
+				80D7963F273C5ABB00C8F00C /* Views */,
 				80D79632273AD91700C8F00C /* Assets.xcassets */,
 				80D79634273AD91700C8F00C /* Preview Content */,
 			);
@@ -65,6 +74,14 @@
 				80D79635273AD91700C8F00C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		80D7963F273C5ABB00C8F00C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				80D79640273C5B1A00C8F00C /* DetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80D79631273AD90600C8F00C /* ContentView.swift in Sources */,
+				80D79631273AD90600C8F00C /* AuberyView.swift in Sources */,
+				80D79641273C5B1A00C8F00C /* DetailView.swift in Sources */,
+				80D79643273C9B3A00C8F00C /* ZachView.swift in Sources */,
+				80D79645273CA07100C8F00C /* PrestonView.swift in Sources */,
 				80D7962F273AD90600C8F00C /* TradingCardsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

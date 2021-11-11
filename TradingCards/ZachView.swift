@@ -1,13 +1,13 @@
 //
-//  AuberyView.swift
+//  ZachView.swift
 //  TradingCards
 //
-//  Created by Suzanne Tian on 2021-11-09.
+//  Created by Suzanne Tian on 2021-11-10.
 //
 
 import SwiftUI
 
-struct AuberyView: View {
+struct ZachView: View {
     var body: some View {
         ScrollView {
             
@@ -16,7 +16,7 @@ struct AuberyView: View {
                     
                     ZStack {
                         
-                        Image ("1")
+                        Image ("2")
                             .resizable()
                             .scaledToFit()
                             .padding()
@@ -37,12 +37,12 @@ struct AuberyView: View {
                     }
                     
                     
-                    Text("FLYTIGERS")
+                    Text("ZACH CARSON")
                     
                     Text("""
-                         Height 5'7'
-                         Weight 129
-                         Birth date:June 5, 1989
+                         Height 5'11'
+                         Weight 159
+                         Birth date:Janunary 22, 1989
                         """)
                         .font(.body)
                         .padding()
@@ -53,7 +53,7 @@ struct AuberyView: View {
                     
                     
                     Text("""
-        "Aubrey shares that she has been competitively swimming since the age of two -when she would race her family's Yorkshire Terrier across the backyard pool.  Now days, even a dolphin would have trouble keeping up with Aubrey."
+        "Zach takes his backstroke training to great lengths l iterally.  One day every other week, he swims 5,000 meters non-stop (much to his coach's chagrin).  When he's not in the pool, Zach enjoys rock climbing and bilking."
         """)
                         .padding()
                         .background(Color.red)
@@ -64,17 +64,16 @@ struct AuberyView: View {
                 
                 
             }
-            .navigationTitle("A.ANDREWS")
+            .navigationTitle("ZACH CARSON")
             .padding()
             
         }
     }
     
     
-    struct AuberyView_Previews: PreviewProvider {
+    struct ZachView_Previews: PreviewProvider {
         static var previews: some View {
-            AuberyView()
+            ZachView()
         }
     }
 }
-
