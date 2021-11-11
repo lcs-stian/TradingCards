@@ -14,6 +14,7 @@
 		80D79641273C5B1A00C8F00C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D79640273C5B1A00C8F00C /* DetailView.swift */; };
 		80D79643273C9B3A00C8F00C /* ZachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D79642273C9B3800C8F00C /* ZachView.swift */; };
 		80D79645273CA07100C8F00C /* PrestonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D79644273CA07100C8F00C /* PrestonView.swift */; };
+		80D79647273CA24500C8F00C /* NoahView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D79646273CA24500C8F00C /* NoahView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		80D79640273C5B1A00C8F00C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		80D79642273C9B3800C8F00C /* ZachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZachView.swift; sourceTree = "<group>"; };
 		80D79644273CA07100C8F00C /* PrestonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrestonView.swift; sourceTree = "<group>"; };
+		80D79646273CA24500C8F00C /* NoahView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoahView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				80D79630273AD90600C8F00C /* AuberyView.swift */,
 				80D79642273C9B3800C8F00C /* ZachView.swift */,
 				80D79644273CA07100C8F00C /* PrestonView.swift */,
+				80D79646273CA24500C8F00C /* NoahView.swift */,
 				80D7962E273AD90600C8F00C /* TradingCardsApp.swift */,
 				80D7963F273C5ABB00C8F00C /* Views */,
 				80D79632273AD91700C8F00C /* Assets.xcassets */,
@@ -156,6 +159,7 @@
 			files = (
 				80D79631273AD90600C8F00C /* AuberyView.swift in Sources */,
 				80D79641273C5B1A00C8F00C /* DetailView.swift in Sources */,
+				80D79647273CA24500C8F00C /* NoahView.swift in Sources */,
 				80D79643273C9B3A00C8F00C /* ZachView.swift in Sources */,
 				80D79645273CA07100C8F00C /* PrestonView.swift in Sources */,
 				80D7962F273AD90600C8F00C /* TradingCardsApp.swift in Sources */,

@@ -1,5 +1,5 @@
 //
-//  PrestonView.swift
+//  NoahView.swift
 //  TradingCards
 //
 //  Created by Suzanne Tian on 2021-11-10.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PrestonView: View {
+struct NoahView: View {
     var body: some View {
         ScrollView {
             
@@ -16,7 +16,7 @@ struct PrestonView: View {
                     
                     ZStack {
                         
-                        Image ("3")
+                        Image ("4")
                             .resizable()
                             .scaledToFit()
                             .padding()
@@ -33,16 +33,16 @@ struct PrestonView: View {
                         Text("Retro 75 Series")
                             .font(.headline)
                             .foregroundColor(Color(white: 0.4745))
-                        
+                
                     }
                     
                     
-                    Text("PRESTON FOWLER")
+                    Text("NOAH GRACIE")
                     
                     Text("""
-                         Height 5'I'
-                         Weight 98
-                         Birth date:June 19, 1994
+                         Height 6'1'
+                         Weight 178
+                         Birth date:June 25, 1984
                         """)
                         .font(.body)
                         .padding()
@@ -53,7 +53,7 @@ struct PrestonView: View {
                     
                     
                     Text("""
-        "Preston started as a polo player, then was drafted by his college's swim coach to compete in the 100-meter breaststroke.  The Switch has certainly paid off, as Preston is undefeated in the event in his past ten races."
+        "Noah set two school records at a single meet last year and has had his sights trained on the upcoming Olymplc Games ever since.  His extreme training schedule has him in the pool almost seven hours a day, six days a week."
         """)
                         .padding()
                         .background(Color.red)
@@ -64,15 +64,15 @@ struct PrestonView: View {
                 
                 
             }
-            .navigationTitle("PRESTON FOWLER")
+            .navigationTitle("NOAH GRACIE")
             .padding()
             
-        }
     }
-    
-    struct PrestonView_Previews: PreviewProvider {
-        static var previews: some View {
-            PrestonView()
-        }
+}
+
+struct NoahView_Previews: PreviewProvider {
+    static var previews: some View {
+        NoahView()
     }
+}
 }
