@@ -18,6 +18,7 @@
 		80D79649273CA2FB00C8F00C /* ReeseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D79648273CA2FB00C8F00C /* ReeseView.swift */; };
 		80D7964F273E16B000C8F00C /* TradingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7964E273E16AF00C8F00C /* TradingCard.swift */; };
 		80D79651273E1BDA00C8F00C /* TradingCardsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D79650273E1BDA00C8F00C /* TradingCardsListView.swift */; };
+		80D79656273E225300C8F00C /* PhotoCaptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D79655273E225300C8F00C /* PhotoCaptionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		80D79648273CA2FB00C8F00C /* ReeseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReeseView.swift; sourceTree = "<group>"; };
 		80D7964E273E16AF00C8F00C /* TradingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCard.swift; sourceTree = "<group>"; };
 		80D79650273E1BDA00C8F00C /* TradingCardsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardsListView.swift; sourceTree = "<group>"; };
+		80D79655273E225300C8F00C /* PhotoCaptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		80D7963F273C5ABB00C8F00C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				80D79652273E220D00C8F00C /* Share */,
 				80D7964B273E14C500C8F00C /* Model */,
 				80D79640273C5B1A00C8F00C /* DetailView.swift */,
 			);
@@ -102,6 +105,14 @@
 				80D7964E273E16AF00C8F00C /* TradingCard.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		80D79652273E220D00C8F00C /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				80D79655273E225300C8F00C /* PhotoCaptionView.swift */,
+			);
+			path = Share;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +189,7 @@
 				80D79641273C5B1A00C8F00C /* DetailView.swift in Sources */,
 				80D79647273CA24500C8F00C /* NoahView.swift in Sources */,
 				80D79643273C9B3A00C8F00C /* ZachView.swift in Sources */,
+				80D79656273E225300C8F00C /* PhotoCaptionView.swift in Sources */,
 				80D79645273CA07100C8F00C /* PrestonView.swift in Sources */,
 				80D79649273CA2FB00C8F00C /* ReeseView.swift in Sources */,
 				80D79651273E1BDA00C8F00C /* TradingCardsListView.swift in Sources */,
