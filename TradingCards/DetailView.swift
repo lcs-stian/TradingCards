@@ -13,17 +13,23 @@ struct DetailView: View {
     
     var body: some View {
         ScrollView {
-            
-            PhotoCaptionView(imageName: item.imageName, headline: item.headline, name: item.name, hWB: item.hWB, longtext: item.longtext, title: item.title)
-            
+            VStack{
+                
+                Text(item.imageName)
+                Text(item.headline)
+                Text(item.name)
+                Text(item.hWB)
+                Text(item.longtext)
+                Text(item.title)
+                
+            }
+        }
+   
         }
     }
-    
-    
-    struct DetailView_Previews: PreviewProvider {
-        static var previews: some View {
-            DetailView(item: listOfItems.first!)
-        }
+
+struct DetailView_Previews: PreviewProvider {
+    static var previews: some View {
+        DetailView(item: listOfItems.first!)
     }
 }
-

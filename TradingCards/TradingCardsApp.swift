@@ -11,7 +11,11 @@ import SwiftUI
 struct TradingCardsApp: App {
     var body: some Scene {
         WindowGroup {
-            TradingCardsListView()
+            NavigationView {
+                
+                TradingCardsListView()
+            }
         }
     }
 }
+
