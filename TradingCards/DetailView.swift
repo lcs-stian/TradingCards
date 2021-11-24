@@ -13,17 +13,14 @@ struct DetailView: View {
     
     var body: some View {
         ScrollView {
-            VStack{
-                
-                Text(item.imageName)
-                Text(item.headline)
-                Text(item.name)
-                Text(item.hWB)
-                Text(item.longtext)
-                Text(item.title)
+            PhotoCaptionView(imageName: item.imageName,
+                             headline: item.headline,
+                             name: item.name,
+                             hWB: item.hWB,
+                             longtext: item.longtext,
+                             title: item.title)
                 
             }
-        }
    
         }
     }

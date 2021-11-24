@@ -21,8 +21,8 @@ struct TradingCardsListView: View {
                     
                     EnhancedListItemsView (imageName: currentItem.imageName,
                                            name: currentItem.name,
-                                           title: currentItem.title,
-                                           body: currentItem,body)
+                                           title: currentItem.title
+                    )
                 })
             }
         }
@@ -32,6 +32,8 @@ struct TradingCardsListView: View {
 
 struct TradingCardsListView_Previews: PreviewProvider {
     static var previews: some View {
-        TradingCardsListView()
+        NavigationView {
+            TradingCardsListView()
+        }
     }
 }

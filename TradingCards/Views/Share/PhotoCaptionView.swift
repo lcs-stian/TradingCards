@@ -31,11 +31,11 @@ struct PhotoCaptionView: View {
                             .scaledToFit()
                             .padding()
                             .background(Color.blue)
-                            .padding()
+                            .padding(5)
                             .background(Color.white)
-                            .padding()
+                            .padding(10)
                             .background(Color.red)
-                            .padding()
+                            .padding(5)
                     }
                     
                     VStack(alignment:.leading) {

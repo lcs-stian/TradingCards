@@ -23,7 +23,7 @@ struct EnhancedListItemsView: View {
                 .frame(width: 50, height: 50, alignment: .center)
                 .clipped()
             
-            VStack {
+            VStack(alignment:.leading) {
                 Text (name)
                     .font(.system(size: 18))
                 Text (title)
